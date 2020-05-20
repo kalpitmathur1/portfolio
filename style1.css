@@ -1,13 +1,13 @@
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-.main-container{
-    display: flex;
+.main_container{
     width: 100%;
 }
-.flex-container{
+.flex_container{
     width: 100%;
     display: flex;
     background-color: black;
@@ -20,35 +20,42 @@ body{
     padding: 30px;
     font-size: 1.4em;
 }
-.image-container{
+.image_container{
     display: flex;
     position: relative;
     text-align: center;
 }
-#banner-image{
+#banner_image{
     width: 100%;
+    height: 700px;
     opacity: 0.8;
 }
-
-.banner-title{
+.banner_title{
     position: absolute;
-    top: 30%;
-    left: 35%;
+    margin-top: 20%;
+    margin-left: 35%;
     font-size: 5em;
-    color: darkred;
+    color: darkred
 }
-.banner-sub{
+.banner_sub{
     position: absolute;
-    top: 39%;
-    left: 38%;
+    margin-top: 26%;
+    margin-left: 39%;
     font-size: 2em;
-    color: darkred;
+    color: darkred
 }
-.skill-container{
+.skill_heading{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.skill_container{
+    text-align: center;
     display: flex;
     width: 100%;
     justify-content: center;
-    height: 500px;
+    height: 270px;
     margin-top: 50px;
     flex-direction: row;
     margin-left: 0px;
@@ -60,109 +67,87 @@ body{
     justify-content: center;
 }
 #image{
+    align-items: center;
     width: 150px;
     height: 150px;
     margin-right: 20px;
 }
-#skill-text{
+#skill_text{
+    text-align: center;
     color: black;
     margin-top: 60px;
     font-weight: bolder;
     font-size: 2em;
 }
-.skill-heading{
-    display: flex;
-    widows: 100%;
-    height: 100px; 
-    color: black;
-    background-color: white;
+.title1{
     font-size: 2em;
-    margin-bottom: 150px;
-}
-.skill-title{
-    margin-left: 45%;
-    margin-top: 155px;
-    font-weight: bolder;
-}
-.portfolio-heading{
-    display: flex;
-    widows: 100%;
-    height: 100px;
-    margin-top: 50px;
-    font-size: 2.2em;
-    margin-bottom: 10px;
-}
-.portfolio-title1{
-    margin-left: 43%;
-    margin-top:  -270px;
+    text-align: center;
     font-weight: bolder;
 }
 .carrier{
     text-align: center;
-    margin-top:  -300px;
-    color: black;
     font-size: 1.5em;
     font-weight: bold;
+    margin-top: 30px;
 }
-.portfolio-title2{
-    margin-left: 40%;
-    margin-top:  50px;
+.title2{
+    margin-top: 60px;
+    font-size: 2em;
+    text-align: center;
     font-weight: bolder;
-    font-size: 2.2em;
 }
 .qualification{
-    text-align: left;
-    margin-top:  30px;
-    color: black;
+    text-align: center;
     font-size: 1.5em;
     font-weight: bold;
+    margin-top: 30px;
 }
-.portfolio-title3{
-    margin-left: 40%;
-    margin-top:  70px;
+.title3{
+    margin-top: 60px;
+    font-size: 2em;
+    text-align: center;
     font-weight: bolder;
-    font-size: 2.2em;
 }
 .training{
-    text-align: left;
-    margin-top:  30px;
-    color: black;
+    text-align: center;
     font-size: 1.5em;
     font-weight: bold;
+    margin-top: 30px;
 }
-.portfolio-title4{
-    margin-left: 40%;
-    margin-top:  70px;
+.title4{
+    margin-top: 60px;
+    font-size: 2em;
+    text-align: center;
     font-weight: bolder;
-    font-size: 2.2em;
+}
+.acknowledgement{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 30px;
 }
 .rounded{
-    width: 300px;
-    margin-left: 650px;
+    text-align: center;
 }
 .rounded img{
     border-radius: 50%;
 }
 .detailes{
     text-align: center;
-    margin-top:  10px;
+    margin-top:  30px;
     color: black;
     font-size: 1.5em;
     font-weight: bold;
 
 }
-.portfolio-title5{
-    margin-left: 40%;
-    margin-top:  70px;
+.title5{
+    margin-top: 60px;
+    text-align: center;
     font-weight: bolder;
     font-size: 2.2em;
 }
-.acknowledgement{
-    text-align: center;
-    margin-top:  10px;
-    color: black;
-    font-size: 1.5em;
-    font-weight: bold;
-
-
+#ka{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
 }
